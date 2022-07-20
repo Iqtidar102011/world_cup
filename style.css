@@ -75,6 +75,7 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 80px;
+    margin-bottom: 80px;
 
 }
 
@@ -193,3 +194,54 @@ body {
 }
 
 /* transfer ends */
+footer {
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+
+}
+
+.footer_heading {
+    color: white;
+    padding-bottom: 30px;
+}
+
+.footer_heading h1 {
+    font-size: 40px;
+}
+
+.footer_heading>p {
+    font-size: 1.5em
+}
+
+
+
+.footer_heading>p>a>i {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 30px
+}
+
+
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-evenly;
+    color: #B9B9B9;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
