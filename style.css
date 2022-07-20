@@ -209,6 +209,60 @@ body {
 }
 
 /* transfer ends */
+
+/* second page fixture starts */
+.container_2 {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.fixture {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.fixture_1 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    border-radius: 10px;
+
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.team img {
+    width: 100%;
+}
+
+.vs {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.team_text {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.date_time {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
 footer {
     margin: 0;
     text-align: center;
