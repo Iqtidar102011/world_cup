@@ -32,6 +32,19 @@ body {
 
 }
 
+.banner_description>a {
+    box-shadow: 0 20px 50px grey;
+    transition: all .25s ease-in;
+}
+
+.banner_description>a:hover {
+    box-shadow: 0 20px 50px white;
+}
+
+
+
+
+
 .banner_heading {
     color: white;
     font-size: 70px;
@@ -53,6 +66,7 @@ body {
     padding: 16px 25px;
     color: white;
     border-radius: 5px;
+
 }
 
 .banner_description>a>i {
