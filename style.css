@@ -155,7 +155,7 @@ body {
 
 .transfer1 {
     border: 2px solid gray;
-    border-radius: 10px;
+    border-radius: 20px;
 
 }
 
@@ -221,6 +221,7 @@ body {
     margin-top: 80px;
     margin-bottom: 80px;
 
+
 }
 
 .fixture {
@@ -228,6 +229,8 @@ body {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
     row-gap: 10px;
+
+    width: 100%;
 }
 
 .fixture_1 {
@@ -407,4 +410,60 @@ hr {
     }
 
 
+}
+
+/* responsive for mobile-------------- */
+@media only screen and (max-width:767px) {
+    .top_banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container,
+    .container_2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 40px;
+
+
+    }
+
+
+    .sidebar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        margin-top: 10px;
+
+
+    }
+
+    .transfer,
+    .fixture {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .footer_bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team_text>h3 {
+
+
+        text-align: center;
+    }
+
+    .date_time>p {
+        text-align: center;
+    }
 }
